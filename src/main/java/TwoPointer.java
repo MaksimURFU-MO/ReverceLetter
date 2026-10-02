@@ -1,13 +1,10 @@
 public class TwoPointer {
     public static void main(String[] args) {
         TwoPointer t = new TwoPointer();
-        System.out.println(t.Reverse2(""));
+        System.out.println(t.Reverse2("123mak9kd22@"));
 
     }
     public String Reverse2(String letter){
-        if(letter == null){
-            return "Строка не может быть равна null";
-        }
         int len = letter.length();
         char[] chars = letter.toCharArray();
         //char[] newChars = new char[len];
