@@ -1,11 +1,13 @@
+import java.util.Objects;
+
 public class TwoPointer {
     public static void main(String[] args) {
         TwoPointer t = new TwoPointer();
-        System.out.println(t.Reverse2("123mak9kd22@"));
+        System.out.println(t.reverse2("123mak9kd22@"));
 
     }
-    public String Reverse2(String letter) {
-        if (letter == null){
+    public String reverse2(String letter) {
+        if (Objects.isNull(letter)){
             return "Строка не может быть равна null";
         }
         int len = letter.length();
